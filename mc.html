@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <title>IT Personal Info</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 20px;
+    }
+
+    .card {
+      max-width: 400px;
+      background-color: #ffe066;
+      margin: auto;
+      border-radius: 25px;
+      padding: 30px 20px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      justify-content: center;
+    }
+
+    .logo img {
+      width: 40px;
+    }
+
+    .profile-img {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 4px solid #fff;
+      margin: 20px auto;
+      display: block;
+      background-color: #fff;
+    }
+
+    .file-input {
+      margin-top: 10px;
+    }
+
+    .info {
+      font-size: 18px;
+      margin-top: 10px;
+    }
+
+    .info .icon {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      margin: 10px 0;
+    }
+
+    .info img {
+      width: 24px;
+    }
+
+    .btn-more {
+      display: inline-block;
+      margin-top: 25px;
+      background-color: #333;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 10px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background-color 0.3s;
+    }
+
+    .btn-more:hover {
+      background-color: #000;
+    }
+     a {
+      margin-top: 20px;
+      background-color: #2196F3;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 1.1rem;
+      font-family: 'Sarabun', sans-serif;
+      }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <div class="logo">
+
+      <div> <!-- โลโก้ -->
+        <strong>IT</strong><br>
+        PERSONAL INFORMATION
+      </div>
+    </div>
+
+    <!-- 🔽 รูปโปรไฟล์เริ่มต้น -->
+    <img id="profilePreview" class="profile-img" src="https://cdn-icons-png.flaticon.com/512/147/147144.png" alt="Profile">
+
+    <!-- 🔽 input สำหรับอัปโหลดรูป -->
+    <input type="file" accept="image/*" onchange="previewImage(event)" class="file-input">
+
+    <div class="info">
+      <div class="icon">
+        <img src="https://cdn-icons-png.flaticon.com/512/747/747376.png" alt="user icon">
+        <span>นางสาว ทิพย์สุดา ตุพิลา</span>
+      </div>
+      <div class="icon">
+        <img src="https://cdn-icons-png.flaticon.com/512/597/597177.png" alt="phone icon">
+        <span>089-992-3775</span>
+      </div>
+    </div>
+
+    <a href="mc2.html" class="btn-more">ข้อมูลเพิ่มเติม</a>
+  </div>

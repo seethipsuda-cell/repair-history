@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8" />
+  <title>ฟอร์มแจ้งซ่อมคอมพิวเตอร์</title>
+  <style>
+    body {
+      background-color: #e0f7fa;
+      font-family: Arial, sans-serif;
+      padding: 40px;
+      text-align: center;
+    }
+
+    h2 {
+      color: #00796b;
+    }
+
+    form {
+      max-width: 400px;
+      margin: auto;
+      background: #ffffff;
+      padding: 20px;
+      border-radius: 15px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    }
+
+    input, textarea, select {
+      width: 90%;
+      margin: 10px 0;
+      padding: 10px;
+      border: 2px solid #00796b;
+      border-radius: 10px;
+      font-size: 14px;
+    }
+
+    button {
+      background-color: #00796b;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 20px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #004d40;
+    }
+
+    .back-link {
+      display: inline-block;
+      margin-top: 20px;
+      color: #00796b;
+      text-decoration: none;
+    }
+
+    .back-link:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <h2>ฟอร์มแจ้งซ่อมคอมพิวเตอร์</h2>
+  <form>
+    <input type="text" name="name" placeholder="ชื่อผู้แจ้ง" required />
+    <input type="text" name="department" placeholder="แผนก/หน่วยงาน" required />
+    <textarea name="problem" rows="4" placeholder="อธิบายปัญหา" required></textarea>
+    <button type="submit">ส่งคำขอ</button>
+  </form>
+
+  <!-- ลิงก์กลับไปหน้าโปรไฟล์ -->
+  <a href="profile.html" class="back-link">← กลับไปหน้าโปรไฟล์</a>
+</body>
+</html>

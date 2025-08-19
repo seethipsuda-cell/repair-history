@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8" />
+  <title>Employee Profile</title>
+  <style>
+    body {
+      background-color: #fdd44f;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 40px;
+    }
+
+    h2 {
+      color: #004d40;
+    }
+
+    input[type="text"],
+    input[type="file"] {
+      display: block;
+      margin: 10px auto;
+      padding: 10px;
+      width: 250px;
+      border: 2px solid #00796b;
+      border-radius: 10px;
+    }
+
+    .button-link {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 24px;
+      background-color: #2e7d68;
+      color: white;
+      border: none;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .button-link:hover {
+      background-color: #00695c;
+    }
+
+    label {
+      font-weight: bold;
+      background-color: yellow;
+      padding: 5px 10px;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <form>
+    <label for="profilePicture">📷 Profile Picture</label>
+    <input type="file" id="profilePicture" name="profilePicture" />
+
+    <h2>Employee profile</h2>
+
+    <input type="text" placeholder="Name" name="name" required />
+    <input type="text" placeholder="Employee ID" name="employeeId" required />
+    <input type="text" placeholder="Phone number" name="phone" required />
+
+    <!-- ปุ่มไปหน้าฟอร์มแจ้งซ่อม -->
+    <a href="repair-form.html" class="button-link">แจ้งซ่อมคอมพิวเตอร์</a>                        
+  </form>
+</body>
+</html>
+
+<!-- ปุ่มไปหน้าประวัติเเจ้งซ่อม -->
+    <a href="tom.html" class="button-link">ประวัติการแจ้งซ่อมคอมพิวเตอร์</a>
+  </form>
+</body>
+</html>
+
+  

@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sign Up</title>
+  <style>
+    body {
+      margin: 600;
+      font-family: 'Arial', sans-serif;
+      background-color: #fffbe6;
+    }
+
+    .container {
+      max-width: 450px;
+      margin: 0 auto;
+      background-color: white;
+      border-radius: 20px;
+      padding: 40px 30px;
+      box-shadow: 0 7px 13px rgba(0, 0, 0, 0.1);
+      margin-top: 100px;
+    }
+
+    .header {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .header h1 {
+      font-size: 36px;
+      margin-bottom: 10px;
+    }
+
+    .icon {
+      font-size: 50px;
+      margin-bottom: 20px;
+    }
+
+    .form-group {
+      margin-bottom: 20px;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="password"],
+    input[type="tel"] {
+      width: 70%;
+      padding: 10px;
+      border: px solid #ccc;
+      border-radius: 10px;
+      font-size: 16px;
+    }
+
+    .submit-btn {
+      background-color: #feda4a;
+      width: 75%;
+      padding: 15px;
+      border: none;
+      border-radius: 10px;
+      font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .submit-btn:hover {
+      background-color: #e6c900;
+    }
+
+    .close-btn {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      background-color: #feda4a;
+      border: none;
+      border-radius: 50%;
+      width: 30px;
+      height: 30px;
+      font-size: 18px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <button class="close-btn">×</button>
+  <div class="container">
+    <div class="header">
+      <h1>Sign Up</h1>
+      <div class="icon">🔒</div>
+    </div>
+    <form>
+      <div class="form-group">
+        <input type="text" placeholder="Name" required />
+      </div>
+      <div class="form-group">
+        <input type="email" placeholder="E-mail" required />
+      </div>
+      <div class="form-group">
+        <input type="password" placeholder="Password" required />
+      </div>
+      <div class="form-group">
+        <input type="tel" placeholder="Phone number" required />
+      </div>
+
+      <!-- ปุ่มลิงก์wxหน้า Sign in -->
+      <a href="Employee Profile.html">
+        <button type="button" class="submit-btn">Sign in</button>
+      </a>
+    </form>
+  </div>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Employee Profile</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fdd752;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+
+    .container {
+      padding: 30px 20px;
+    }
+
+    .profile-pic {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid #2e7d6d;
+    }
+
+    input[type="file"] {
+      margin-top: 10px;
+    }
+
+    h2 {
+      margin-top: 10px;
+      color: #225e4d;
+    }
+
+    .input-button {
+      display: block;
+      width: 80%;
+      max-width: 300px;
+      margin: 15px auto;
+      padding: 15px;
+      background-color: #6abf95;
+      color: white;
+      font-size: 16px;
+      border: none;
+      border-radius: 25px;
+      cursor: pointer;
+      text-decoration: none;
+    }
+
+    .input-button.dark {
+      background-color: #2e7d6d;
+    }
+
+    input[type="text"] {
+      display: block;
+      width: 80%;
+      max-width: 300px;
+      margin: 10px auto;
+      padding: 10px;
+      border: 2px solid #2e7d6d;
+      border-radius: 10px;
+      font-size: 16px;
+    }
+  
+  
